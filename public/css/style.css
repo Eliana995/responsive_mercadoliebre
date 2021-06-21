@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    font-family: 'Roboto';
+}
+
+/* HEADER */
+
+.home{
+    background-color: #EAC926;
+}
+
+.home header .logo{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.home .buscar{    
+    display: block;
+    margin: 0px;
+    margin-top: 10px;
+    background-color: #03264C;    
+    border: none;
+    padding: 6px;
+    color: white;
+    border-radius: 4px;
+}
+
+.home .peso{    
+    margin-top: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+}
+
+.home header ul .lista2{
+    margin-right: 20px;
+    font-size: 15px;
+    border: none;
+}
+
+.home .burger-menu{
+    display: inline-block;
+    margin: auto;
+    margin-left: 140px;
+    background-color: white;
+    border: solid 10px #03264C;;
+    border-radius: 5px;
+}
+
+
+.home header h3{
+    font-size: 24px;
+}
+
+.home .descripcion p{
+    font-size: 18px;
+} 
+
+.home .descripcion span, h4{
+    font-size: 16px;
+}
+
+/* FOOTER */
+
+.home footer h4 p{
+    background-color: var(--color-blanco);
+    text-align: center;
+    padding: 10px;
+}
